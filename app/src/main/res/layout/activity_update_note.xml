@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateNoteActivity"
+    android:background="@color/white"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/editMemoHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="Edit Note"
+        android:textColor="@color/red"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/updatesaveButton"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@id/editMemoHeading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/baseline_done_24" />
+    <EditText
+        android:id="@+id/updatetitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editMemoHeading"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="550dp"
+        android:background="@drawable/red_border"
+        android:backgroundTint="@color/pink"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter the Note"
+        android:maxLines="5"
+        android:padding="12dp"
+        android:textSize="20sp" />
+        />
+
+</RelativeLayout>
